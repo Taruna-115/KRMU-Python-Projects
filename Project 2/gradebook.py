@@ -1,7 +1,7 @@
 # ---------------------------------------------
 # GradeBook Analyzer
 # Name              : TARUNA TEWATIA
-# # Course          : Programming for Problem Solving using Python
+# Course          : Programming for Problem Solving using Python
 # Assignment Title  : Analyzing and reporting students grades
 # Name              : Taruna Tewatia
 # Roll no.          : 2501730115
@@ -129,7 +129,7 @@ while True:
 
     elif choice == "3":
         print("\nThank you for using GradeBook Analyzer!")
-        print("Goodbye 😊")
+        print("Goodbye!")
         break
 
     else:
@@ -168,4 +168,5 @@ while True:
     again = input("\nDo you want to run analysis again? (y/n): ")
     if again.lower() != "y":
         print("\nThank you for using GradeBook Analyzer!")
+
         break
